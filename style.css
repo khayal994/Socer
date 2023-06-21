@@ -2,10 +2,7 @@ body{
     background-image:url(123\ \(2\).jpg) ;
     background-size: cover;
     background-position: center;
-}
-html,body{
-    
-    height: 100%;
+    background-repeat: no-repeat;
 }
 .qapi{
     background-image: url(qapi.png);
@@ -45,12 +42,12 @@ html,body{
     height: 50px;
     background-size: cover;
     background-position: center;
-    margin-top: -210px;
-    margin-left: 460px;
     position: absolute;
     transition: .5s;
     position: absolute;
     transform: translate(0 0);
+    bottom: 170px;
+    margin-left: 450px;
 }
 .top:hover{
     transform: translate(550px, 20px);
